@@ -1,0 +1,73 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(45deg, #313030, #000000);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .grid {
+    max-width: 600px;
+    height: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  #img {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  #size {
+    text-align: center;
+  }
+  
+  textarea {
+    width: 90%;
+    padding: 10px;
+    align-content: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  select {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #585656;
+    color: #fff;
+    appearance:inherit; /* Remove default arrow icon */
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color:#585656;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3d3b3b;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+  }
+  
